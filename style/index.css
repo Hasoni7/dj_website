@@ -52,6 +52,7 @@
     gap: 10px;
     max-width: 500px;
     margin-left: 30px;
+    padding: 40px;
 }
 
 .logopart p {
@@ -59,6 +60,10 @@
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0px;
 }
 
 .logopart h4 {
@@ -79,7 +84,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 20px;
+    gap: 10px;
     max-height: 150px;
     color: #5C4033;
 }
