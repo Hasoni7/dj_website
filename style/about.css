@@ -1,0 +1,61 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", serif;
+  font-style: normal;
+  color: #5c4033;
+  min-height: 100vh;
+}
+
+.specialday {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: auto;
+  max-height: 40vh;
+  margin-bottom: 100px;
+}
+.specialday h4 {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  padding: 60px;
+  line-height: 60px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 10vw;
+  margin: auto;
+  margin-top: 30px;
+  max-width: 90vw;
+}
+.cards p {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  padding: 0px;
+  line-height: 25px;
+}
+.cards h6 {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  max-width: 250px;
+  min-width: 250px;
+}
+.cards img {
+  max-width: 200px;
+}
