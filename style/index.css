@@ -170,7 +170,7 @@ video {
     width: 100%;
     gap: 40px;
     background-color:#ffffff;
-    min-width: 500px;
+    min-width: 300px;
     overflow: hidden;
     font-family: "Poppins", serif;
     font-weight: 700;
