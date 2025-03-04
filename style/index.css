@@ -154,63 +154,6 @@ video {
     transition: all 0.4s ease-in;
 }
 
-/* .services__outer {
-    width: 100%;
-    display: flex;
-    gap: 0px;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.services {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.services__container {
-    max-width: 700px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
-    background-color:#ffffff;
-    min-width: 400px;
-    font-family: "Poppins", serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 30px;
-    color: #5C4033;
-}
-
-.services__button {
-    border-radius: 5px;
-    width: 150px;
-    height: 50px;
-    background-color: #5C4033;
-    color: white;
-    border-style: none;
-    font-family: "Poppins", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-}
-
-.services__button:hover {
-    color:#5C4033;
-    background-color:#d0f0c0;
-    transition: all 0.4s ease-in;
-}
-
-.services__imageholder {
-    max-width: 700px;
-    min-width: 400px;
-} */
-
 .services {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -235,7 +178,6 @@ video {
     font-size: 30px;
     color: #5C4033;
 }
-
 
 .first {
     grid-row: 1 / 2;
@@ -373,19 +315,9 @@ video {
     align-items: center;
     justify-content: center;
     text-align: center;
-    max-width: 200px;
+    max-width: 500px;
     gap: 80px;
     color: #5C4033;
-}
-
-.testemonials__quotes {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    max-width: 200px;
-    gap: 80px;
 }
 
 .testemonials__quotes--elements {
@@ -393,7 +325,7 @@ video {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 200px;
+    min-width: 200px;
     gap: 40px;
 }
 
