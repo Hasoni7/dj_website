@@ -149,7 +149,7 @@ video {
 }
 
 .greencontainer__button:hover {
-    color: #d0f0c0;
+    color: #FFFFFF;
     background-color:#443026;
     transition: all 0.4s ease-in;
 }
@@ -223,8 +223,8 @@ video {
 }
 
 .services__button:hover {
-    color:#5C4033;
-    background-color:#d0f0c0;
+    color:#FFFFFF;
+    background-color:#443026;
     transition: all 0.4s ease-in;
 }
 
@@ -280,7 +280,7 @@ video {
 
 .keepfree__button:hover {
     color:#FFFFFF;
-    background-color:#5C4033;
+    background-color:#443026;
     transition: all 0.4s ease-in;
 }
 
